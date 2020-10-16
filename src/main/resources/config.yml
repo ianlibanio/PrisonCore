@@ -1,0 +1,10 @@
+MySQL:
+  host: '127.0.0.1'
+  port: '3306'
+  database: 'prisoncore'
+  user: 'root'
+  password: ''
+modules:
+  rankup:
+    rankup-command-gui: true
+    rankinfo-command-gui: true

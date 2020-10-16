@@ -1,0 +1,61 @@
+messages:
+  rankup:
+    rankinfo-inventory-title: '&8Information of {prefix}'
+    rankinfo-chest-title: '&7Information about the rank {prefix}'
+    rankinfo-chest-lore: []
+    rankinfo-prefix-paper-title: '&7Prefix'
+    rankinfo-prefix-paper-lore: []
+    rankinfo-nametag-title: '{prefix}'
+    rankinfo-nametag-lore: []
+    rankinfo-price-paper-title: '&7Price'
+    rankinfo-price-paper-lore: []
+    rankinfo-diamond-title: '&e${price}'
+    rankinfo-diamond-lore: []
+    rankinfo-first-paper-title: '&7Is this the first rank'
+    rankinfo-first-paper-lore: []
+    rankinfo-first-wool-title: '{first}'
+    rankinfo-first-wool-lore: []
+    rankinfo-last-paper-title: '&7Is this the last rank'
+    rankinfo-last-paper-lore: []
+    rankinfo-last-wool-title: '{last}'
+    rankinfo-last-wool-lore: []
+    rankinfo-insufficient-args: '&cYou must enter a rank to display their information.'
+    rankinfo-invalid-rank: '&cYou must enter a valid rank to display their information.'
+    rankinfo-infos:
+      - '&7Information about the rank: {name}'
+      - ''
+      - '&7Prefix: {prefix}&7.'
+      - '&7Price: &e{price}&7.'
+      - '&7Is this the first rank? {first}'
+      - '&7Is this the last rank? {last}'
+    ranks-list:
+      - '&7List of ranks:'
+      - ''
+      - '{info}'
+      - ''
+      - '&7There are a total of: &e{total} &7ranks.'
+    ranks-list-format: '{prefix} &7> Price: &e{price}&7. {status}'
+    rankup-command-last-rank: "&cYou are in the last rank, wait for new ranks in the future."
+    rankup-command-nomoney: "&cYou don't have enough money for doing that. You need more ${need} to proceed with this operation."
+    rankup-command-sucess: "&7You are now in the rank '{prefix}&7'."
+    rankup-inventory-lastrank-title: '&cLast rank'
+    rankup-inventory-firstrank-title: '&7Evolve to the rank {prefix}'
+    rankup-inventory-lastrank-itemname: '&7Rank {prefix}'
+    rankup-inventory-lastrank-itemlore:
+      - ''
+      - '&cYou are in the last rank, wait for new ranks in the future.'
+    rankup-inventory-head-itemname: '&7Evolve to the rank: {prefix}'
+    rankup-inventory-head-itemlore:
+      - ''
+      - '&7Price: &e{price}'
+    rankup-inventory-confirm-itemname: '&aConfirm'
+    rankup-inventory-confirm-itemlore:
+      - ''
+      - '&7Click here to proceed with this operation.'
+    rankup-inventory-confirm-nomoney: "&cYou don't have enough money for doing that. You need more ${need} to proceed with this operation."
+    rankup-inventory-confirm-success: "&7You are now in the rank '{prefix}&7'."
+    rankup-inventory-cancel-itemname: '&cCancel'
+    rankup-inventory-cancel-itemlore:
+      - ''
+      - '&cClick here to cancel this operation.'
+    rankup-inventory-cancel-success: "&cYou cancelled the rankup operation with success!"

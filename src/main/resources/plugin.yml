@@ -1,0 +1,6 @@
+name: PrisonCore
+description: A Prison Core plugin.
+version: '0.1'
+main: com.ianlibanio.prison.PrisonCore
+authors: [ zMrNull ]
+depend: ['Vault']

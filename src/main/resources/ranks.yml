@@ -1,0 +1,10 @@
+ranks:
+  test1:
+    prefix: '&eTest #1'
+    price: 10.0
+  test2:
+    prefix: '&eTest #2'
+    price: 100.0
+  test3:
+    prefix: '&eTest #3'
+    price: 1000.0
